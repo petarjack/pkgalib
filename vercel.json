@@ -1,9 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "vercel-sapper"
-    }
-  ]
+  "source": "/feedback/((?!general).*)",
+  "destination": "/api/feedback/general"
 }
